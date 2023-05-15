@@ -16,7 +16,8 @@ Se cambia como constante y se le agrega el constructor Number para la evaluacion
 
 Las siguientes condiciones se encuentran de manera invertida:
 
-if(userGuess === randomNumber) {
+
+      if(userGuess === randomNumber) {
       lastResult.textContent = '!!!Pérdistes!!!';
       lastResult.style.backgroundColor = 'black';
       lowOrHi.textContent = '';
@@ -42,7 +43,7 @@ if(userGuess === randomNumber) {
       
 Segun las indicaciones de la aplicacion, debe modificarse de la siguiente manera:
       
-       if(userGuess === randomNumber) {
+      if(userGuess === randomNumber) {
       lastResult.textContent = 'Felicitaciones! adivinaste el número!'; 
       lastResult.style.backgroundColor = 'red';
       lowOrHi.textContent = '';
