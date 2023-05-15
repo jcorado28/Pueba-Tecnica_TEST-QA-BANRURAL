@@ -63,8 +63,8 @@ Segun las indicaciones de la aplicacion, debe modificarse de la siguiente manera
       } else if(userGuess < randomNumber) {
         lowOrHi.textContent = 'El número es menor!';
 
-      }
-}
+      } }
+
 
 
 
